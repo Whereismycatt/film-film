@@ -1,0 +1,108 @@
+header.archive-index-header-main
+  position: relative
+  z-index: 1
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 650px
+  background: 
+    size: cover
+    position: center center
+    repeat: no-repeat
+  .overlay-light
+    background: $white
+    opacity: .1
+    position: absolute
+    z-index: 2
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0 
+  .archive-index-title
+    position: relative
+    z-index: 5
+    text-align: center
+    padding-top: 50px
+    h1.film-locations-archive-title
+      max: width 600px
+      font-size: 3.125em
+      font-weight: 500
+      line-height: 1.2em
+      padding: 0 20px 5px 20px
+      color: $white
+      margin: 30px 0
+      @media screen and(max-width: 500px)
+        font-size: 2.5em
+      @media screen and(max-width: 400px)
+        font-size: 2.1875em
+      @media screen and(max-width: 360px)
+        font-size: 1.875em
+    a.read-film-locations-archive
+      color: $white
+      font-size: 0.75em
+      font-weight: 500
+      padding: .5em 2em
+      border: 2px solid $white
+      border-radius: 4px
+      text-transform: uppercase
+      &:hover
+        background: $white
+        color: $highlight
+.archiveIndexWrapper
+  width: 100%
+  max-width: 1200px
+  margin: 100px auto 0 auto
+  padding: 0 20px
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: baseline
+  flex-wrap: wrap
+  @media screen and(max-width: 700px)
+    padding: 0
+.archivePostContainer
+  transition: all 0.4s ease-in
+  width: 100%
+  max-width: 320px
+  margin: 0 5px 120px 5px
+  @media screen and(max-width: 700px)
+    max-width: 100%
+    margin: 0 0 120px 0
+.archivePostFeatImg
+  display: block
+  width: 100%
+  height: 200px
+  margin: 0 auto 40px auto
+  background:
+    size: cover
+    position: center center
+    repeat: no-repeat
+.archiveCategory
+  display: block
+  text-align: center
+  margin: 0 auto 15px auto
+  color: $secondary
+  text-transform: uppercase
+  font-family: $font-stack
+  font-size: .5em
+  letter-spacing: 1px
+.archiveTitle
+  display: block
+  text-align: center
+  margin: 0 auto 20px auto
+  font-family: $font-stack
+  font-size: 1.2em
+  font-weight: 500
+  color: $highlight
+.archiveExcerpt
+  display: block
+  text-align: center
+  margin: auto
+  color: $secondary
+  font-family: $font-stack-two
+  font-size: .8em
+  line-height: 2em
+.archiveCategory, .archiveTitle, .archiveExcerpt
+  padding: 0 20px

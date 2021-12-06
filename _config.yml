@@ -19,15 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Chelsea
-email: k21032503@kcl.ac.uk
+email: hao.zeng@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Chelsea is a student in Digital Asset and Media Management at King's College London.
 baseurl: "/Chelsea" # the subpath of your site, e.g. /blog
-url: "https://Chelsea.Archive.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chelsea-archive.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_path: https://twitter.com/ZZZChelsea0806
 instagram_path: https://www.instagram.com/che1seazz/
+faceboo_path: https://www.facebook.com/profile.php?id=100072196908403
 github_path: https://github.com/Chelsea0806
+
 
 # Build settings
 premalink: pretty

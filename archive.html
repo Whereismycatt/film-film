@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% for post in site.posts offset:0 limit: 1 %}
+<header class="archive-index-header-main" style="background-image:url('{{ site.baseurl }}/assets/img/111.jpg')">
+    <div class="overlay-light"></div>
+    {% include nav.html %}
+    <div class="archive-index-title">
+      <h1 class="film-locations-archive-title">Film Locations Archive</h1>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-film-locations-archive">Read</a>
+    </div>
+  </header>
+{% endfor %}
+<div class="archiveIndexWrapper">
+  {% for post in site.posts %}
+    <div class="archivePostContainer">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="archivePostFeatImg" style="background-image: url('{{ site.baseurl }}/assets/img/archive/{{ post.featImg }}');"></a>
+      <a href="" class="archiveCategory">{{ post.categories }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="archiveTitle">{{ post.title }}</a>
+      <p class="archiveExcerpt">{{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
+</div>
