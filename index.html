@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/img/222.jpg')">
+<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/img/555.jpg')">
   <div class="overlay-light"></div>
   {% include nav.html %}
   <div class="home-title">
-    <h1>{{ site.title }}</h1>
-    <h3>Student</h3>
+    <h1>Harry Potter</h1>
+    <h3>Film Locations Archive</h3>
   </div>
   <a href="#blurb" class="home-avatar"></a>
 </header>
 <!-- About -->
 <div class="Archive-Introduction" id="blurb">
   <h2>Archive Introduction</h2>
-  <p>This is an archive produced by Chelsea showing where <a href="{{ site.baseurl }}/Harry Potter">Harry Potter</a> was filmed in London, which called Film Locations Archive.
+  <p>This is an archive produced by Chelsea showing where <a href="https://en.wikipedia.org/wiki/Harry_Potter_(film_series)">Harry Potter</a> was filmed in London, which called Film Locations Archive.
   </p>
 </div>
 <hr />
@@ -58,5 +58,23 @@ layout: default
   </div>
 </div>
 <hr />
+<!-- Html Elements for Search -->
+<br>
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="Search ...">
+    <ul id="results-container"></ul>
+</div>
+    
+<!-- Script pointing to search-script.js -->
+<script src="{{ site.baseurl }}/js/search-script.js" type="text/javascript"></script>
+    
+<!-- Configuration -->
+<script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json'
+    })
+</script>
 
   
