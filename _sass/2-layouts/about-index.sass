@@ -1,0 +1,54 @@
+header.about-index-header-main
+  position: relative
+  z-index: 1
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 1000px
+  background: 
+    size: cover
+    position: center center
+    repeat: no-repeat
+  .overlay-light
+    background: $white
+    opacity: .1
+    position: absolute
+    z-index: 2
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0 
+  .about-index-title
+    position: relative
+    z-index: 5
+    text-align: center
+    padding-top: 50px
+    h1.about-title
+      max: width 600px
+      font-size: 3.125em
+      font-weight: 500
+      line-height: 1.2em
+      padding: 0 20px 5px 20px
+      color: $white
+      margin: 30px 0
+      @media screen and(max-width: 500px)
+        font-size: 2.5em
+      @media screen and(max-width: 400px)
+        font-size: 2.1875em
+      @media screen and(max-width: 360px)
+        font-size: 1.875em
+//About Introduction
+.About-Introduction
+  max-width: 800px
+  margin: 160px auto 100px auto
+  padding: 0 20px
+  h2
+    padding-bottom: 17px
+  p
+    a
+      color: $black
+      font-weight: 600
+      transition: all 0.15s ease-in-out
+    
