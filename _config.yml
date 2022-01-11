@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Chelsea
+title: film-film
 email: hao.zeng@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Chelsea is a student in Digital Asset and Media Management at King's College London.
-baseurl: "/Chelsea" # the subpath of your site, e.g. /blog
-url: "https://film-location-archive.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "stupefied-benz-363048.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_path: https://twitter.com/ZZZChelsea0806
 instagram_path: https://www.instagram.com/che1seazz/
