@@ -23,7 +23,7 @@ email: hao.zeng@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Chelsea is a student in Digital Asset and Media Management at King's College London.
 baseurl: "/Chelsea" # the subpath of your site, e.g. /blog
-url: "https://chelsea-archive.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://film-location-archive.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_path: https://twitter.com/ZZZChelsea0806
 instagram_path: https://www.instagram.com/che1seazz/
